@@ -2,13 +2,13 @@ apiVersion: backstage.io/v1beta2
 kind: Template
 metadata:
   name: api-test-runner-template
-  title: Create Doc Template Azure
-  description: Create a new Doc in Azure
+  title: API Test Runner
+  description: Create a API test runner
   tags:
     - azure
 spec:
   owner: web@example.com
-  type: website
+  type: api
   parameters:
     - title: Provide some simple information
       required:
